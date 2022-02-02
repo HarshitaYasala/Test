@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-02T15:42:46 IST" name="Suite" finished-at="2022-02-02T15:44:05 IST" duration-ms="79030">
+    <groups>
+    </groups>
+    <test started-at="2022-02-02T15:42:46 IST" name="chomeTest" finished-at="2022-02-02T15:43:18 IST" duration-ms="31120">
+      <class name="assignment01.DDTestUsingJSON">
+        <test-method is-config="true" signature="setup1(java.lang.String)[pri:0, instance:assignment01.DDTestUsingJSON@65c7a252]" started-at="2022-02-02T15:42:47 IST" name="setup1" finished-at="2022-02-02T15:43:00 IST" duration-ms="13529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment01.DDTestUsingJSON@65c7a252]" started-at="2022-02-02T15:43:00 IST" name="setUp" finished-at="2022-02-02T15:43:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String)[pri:0, instance:assignment01.DDTestUsingJSON@65c7a252]" started-at="2022-02-02T15:43:00 IST" name="login" data-provider="harr" finished-at="2022-02-02T15:43:17 IST" duration-ms="17145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin,admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="name(org.testng.ITestResult)[pri:0, instance:assignment01.DDTestUsingJSON@65c7a252]" started-at="2022-02-02T15:43:17 IST" name="name" finished-at="2022-02-02T15:43:17 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=DDTestUsingJSON.login(java.lang.String)[pri:0, instance:assignment01.DDTestUsingJSON@65c7a252] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment01.DDTestUsingJSON@65c7a252]" started-at="2022-02-02T15:43:17 IST" name="tearDown" finished-at="2022-02-02T15:43:18 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- assignment01.DDTestUsingJSON -->
+    </test> <!-- chomeTest -->
+    <test started-at="2022-02-02T15:43:18 IST" name="EdgeTest" finished-at="2022-02-02T15:44:05 IST" duration-ms="47798">
+      <class name="assignment01.DDTestUsingJSON">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment01.DDTestUsingJSON@2cf3d63b]" started-at="2022-02-02T15:42:45 IST" name="setUp" finished-at="2022-02-02T15:42:46 IST" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup1(java.lang.String)[pri:0, instance:assignment01.DDTestUsingJSON@2cf3d63b]" started-at="2022-02-02T15:43:18 IST" name="setup1" finished-at="2022-02-02T15:43:25 IST" duration-ms="7710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment01.DDTestUsingJSON@2cf3d63b]" started-at="2022-02-02T15:43:25 IST" name="setUp" finished-at="2022-02-02T15:43:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String)[pri:0, instance:assignment01.DDTestUsingJSON@2cf3d63b]" started-at="2022-02-02T15:43:25 IST" name="login" data-provider="harr" finished-at="2022-02-02T15:44:05 IST" duration-ms="39486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin,admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="name(org.testng.ITestResult)[pri:0, instance:assignment01.DDTestUsingJSON@2cf3d63b]" started-at="2022-02-02T15:44:05 IST" name="name" finished-at="2022-02-02T15:44:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=DDTestUsingJSON.login(java.lang.String)[pri:0, instance:assignment01.DDTestUsingJSON@2cf3d63b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment01.DDTestUsingJSON@2cf3d63b]" started-at="2022-02-02T15:44:05 IST" name="tearDown" finished-at="2022-02-02T15:44:05 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown1()[pri:0, instance:assignment01.DDTestUsingJSON@2cf3d63b]" started-at="2022-02-02T15:44:06 IST" name="tearDown1" finished-at="2022-02-02T15:44:07 IST" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+      </class> <!-- assignment01.DDTestUsingJSON -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

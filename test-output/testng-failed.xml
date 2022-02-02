@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="chomeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="assignment01.DDTestUsingJSON">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="tearDown1"/>
+          <include name="name"/>
+          <include name="setUp"/>
+          <include name="setup1"/>
+        </methods>
+      </class> <!-- assignment01.DDTestUsingJSON -->
+    </classes>
+  </test> <!-- chomeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
